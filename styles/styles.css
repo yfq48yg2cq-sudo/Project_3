@@ -218,3 +218,54 @@ footer {
   width: 90%;
   margin: 1rem auto;
 }
+
+/* =========================
+   PROJECT 3 MEDIA QUERIES
+   ========================= */
+
+@media screen and (min-width: 600px) {
+
+  body {
+    font-size: 1.1rem;
+  }
+
+  nav ul {
+    justify-content: center;
+    gap: 2.5rem;
+  }
+
+  .home-image {
+    width: 350px;
+  }
+
+  .home-section {
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  body {
+    max-width: 1200px;
+  }
+
+  nav ul {
+    justify-content: space-around;
+  }
+
+  .home-image {
+    width: 450px;
+  }
+
+  .home-section {
+    width: 85%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
