@@ -1,0 +1,40 @@
+<!-- map.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Chicago Map</title>
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="js/script.js" defer></script>
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+  </script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="page3.html">Video Profile</a></li>
+        <li><a href="map.html">Map</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="video-section">
+    <h1 class="video-title">Chicago Map</h1>
+    <p class="video-description">
+      Explore two favorite Chicago locations.
+    </p>
+
+    <div id="map" style="width:100%; height:500px; border:4px solid #1e90ff; border-radius:10px;"></div>
+  </section>
+
+  <footer>
+    <p>Created by Ali Agha</p>
+  </footer>
+</body>
+</html>
