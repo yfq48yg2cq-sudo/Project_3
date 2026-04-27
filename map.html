@@ -6,10 +6,6 @@
   <title>Chicago Map</title>
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/styles.css">
-  <script src="js/script.js" defer></script>
-  <script async
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-  </script>
 </head>
 
 <body>
@@ -27,10 +23,29 @@
   <section class="video-section">
     <h1 class="video-title">Chicago Map</h1>
     <p class="video-description">
-      Explore two favorite Chicago locations.
+      Explore two favorite Chicago locations:
+      Millennium Park and Navy Pier.
     </p>
 
-    <div id="map" style="width:100%; height:500px; border:4px solid #1e90ff; border-radius:10px;"></div>
+    <iframe
+      src="https://www.google.com/maps?q=Millennium+Park+Chicago&output=embed"
+      width="100%"
+      height="500"
+      style="border:4px solid #1e90ff; border-radius:10px;"
+      loading="lazy"
+      allowfullscreen>
+    </iframe>
+
+    <br><br>
+
+    <iframe
+      src="https://www.google.com/maps?q=Navy+Pier+Chicago&output=embed"
+      width="100%"
+      height="500"
+      style="border:4px solid #1e90ff; border-radius:10px;"
+      loading="lazy"
+      allowfullscreen>
+    </iframe>
   </section>
 
   <footer>
@@ -38,3 +53,4 @@
   </footer>
 </body>
 </html>
+```
